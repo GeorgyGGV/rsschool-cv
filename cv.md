@@ -14,7 +14,7 @@
 ***
 ### About Myself:
 
-I am 32 years old, and I have reached the point that I need global changes in my life. I would like to have an occupation that I can consider as a creative craft. This search led me to web development. The craft in which you can develop for a very long time. I have a goal and a determination to become a to become a professional in this field.
+I am 32 years old, and I have reached the point that I need global changes in my life. I would like to have an occupation that I can consider as a creative craft. This search led me to web development. The craft in which you can develop for a very long time. I have a goal and a determination to become a professional in this field.
 
 ### Skills and Proficiency:
 

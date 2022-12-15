@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{ 
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 1);
+    font-size: 20px;
+    color:rgb(0, 255, 255);
+}
+
+.header{
+    background-color: rgb(20, 20, 20);
+}
+.container {
+    max-width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 50, 250);
+}
+
+a:hover{
+    color:rgb(0, 255, 255);
+    text-decoration: underline;
+}
+
+.nav h1{
+font-size: 300%;
+text-align: center;
+margin: 49px 0 15px ;
+}
+
+.nav h2{
+    font-size: 150%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 50, 255);
+    }
+
+.line{
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth; 
+}
+
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.section {
+    width: 50%;
+    padding: 0 30px;
+}
+.height{
+    height: 260px; ;
+}
+
+@media (max-width: 768px) {
+    .section {
+    width: 100%;
+    }
+}
+
+.round{
+    border-radius: 100px; 
+    border: 3px solid rgb(0, 255, 255); 
+    box-shadow: 0 0 7px #666; 
+}
+
+.li-item{
+    list-style: none;
+    padding: 5px;  
+    margin: 0;  
+}
+.h-section{
+    margin:10px;
+    color: rgb(0, 40, 200);
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(20, 20, 20);   
+}
+.logo{
+    height: 50px;
+    transition: 1s;
+    background: rgb(0, 40, 200);;
+}
+
+.logo:hover{
+    height: 50px;
+    background: rgb(0, 255, 255); 
+}
+
+.git{
+    height: 50px;
+}
